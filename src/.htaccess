@@ -1,3 +1,4 @@
+# Removing the public folder from the url
 <IfModule mod_rewrite.c>
     RewriteEngine on
     RewriteRule ^$ public/ [L]

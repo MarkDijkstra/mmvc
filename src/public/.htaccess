@@ -4,7 +4,7 @@
     
     RewriteEngine On
     
-    RewriteBase /github/mmvc/public
+    RewriteBase /github/mmvc/src/public
     
     # dir
     RewriteCond %{REQUEST_FILENAME} !-d

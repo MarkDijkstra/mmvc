@@ -1,1 +1,9 @@
-<?php echo 'hello booty';
+<?php
+    
+/*
+ * Require library classes.
+ */
+
+require_once 'libraries/core.php';
+require_once 'libraries/controller.php';
+require_once 'libraries/database.php';
