@@ -4,8 +4,7 @@
  * App Core class
  * Creates the URL & loads the core controller
  * URL FORMAT - /controller/methode/params
- *
- */
+*/
 
 class Core {
     
@@ -14,8 +13,8 @@ class Core {
     */
     
     protected $currentController = 'Pages';
-    protected $currentMethode    = 'index';
-    protected $params            = array();// php 5.3.0
+    protected $currentMethod     = 'index';
+    protected $params            = array('test');// php 5.3.0
     //protected $params          = [];// > php 5.4.0 
     
     /*
@@ -52,7 +51,35 @@ class Core {
         */
         
         $this->currentController = new $this->currentController;
+        
+        /*
+         * Check for $url[1].
+        */
+        
+        if( isset( $url[1] ) ){
+            
+            if( method_exists( $this->currentController , $url[1] ) ){
+                
+                $this->currentMethod = $url[1];
+                
+                unset( $url[1] );
+                
+            }
+            
+        }
+        
+        
+        
+        
+        $this->params = $url ? array_values( $url ) : array();
+        //$this->params = $url ? array_values( $url ) : [];
 
+        call_user_func_array( array( $this->currentController , $this->currentMethod ) , $this->params );
+        //call_user_func_array( [ $this->currentController , $this->currentMethod ] , $this->params );
+        
+        
+        
+        
         
     }
     
