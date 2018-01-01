@@ -1,0 +1,326 @@
+[01-Jan-2018 15:27:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:53
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 53
+[01-Jan-2018 15:27:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:53
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 53
+[01-Jan-2018 15:29:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:53
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 53
+[01-Jan-2018 15:30:23 Europe/Berlin] PHP Notice:  Undefined property: Post::$bd in C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php on line 21
+[01-Jan-2018 15:30:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function resultSet() on null in C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php:21
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#2 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php on line 21
+[01-Jan-2018 15:31:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:53
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 53
+[01-Jan-2018 15:31:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:53
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 53
+[01-Jan-2018 15:33:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:53
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 53
+[01-Jan-2018 15:33:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:53
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 53
+[01-Jan-2018 15:33:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:53
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 53
+[01-Jan-2018 15:36:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:58
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 58
+[01-Jan-2018 15:37:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:54
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 54
+[01-Jan-2018 15:37:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:54
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 54
+[01-Jan-2018 15:37:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:54
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 54
+[01-Jan-2018 15:38:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:54
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 54
+[01-Jan-2018 15:38:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:54
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 54
+[01-Jan-2018 15:39:01 Europe/Berlin] PHP Fatal error:  Cannot redeclare Database::__construct() in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 52
+[01-Jan-2018 15:39:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Database::query() in C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php:19
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#2 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php on line 19
+[01-Jan-2018 15:40:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:54
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 54
+[01-Jan-2018 15:43:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:54
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 54
+[01-Jan-2018 15:44:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:54
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 54
+[01-Jan-2018 15:44:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:54
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 54
+[01-Jan-2018 15:45:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:54
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 54
+[01-Jan-2018 15:46:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:54
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 54
+[01-Jan-2018 15:46:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:54
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 54
+[01-Jan-2018 15:47:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:54
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 54
+[01-Jan-2018 15:47:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:54
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 54
+[01-Jan-2018 15:49:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:54
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 54
+[01-Jan-2018 15:49:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:54
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 54
+[01-Jan-2018 15:50:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:54
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 54
+[01-Jan-2018 15:50:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:54
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 54
+[01-Jan-2018 15:50:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:54
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 54
+[01-Jan-2018 15:52:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:54
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 54
+[01-Jan-2018 15:52:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:54
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 54
+[01-Jan-2018 15:53:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:54
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 54
+[01-Jan-2018 15:53:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:54
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 54
+[01-Jan-2018 15:53:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:54
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(19): Database->query('SELECT * FROM p...')
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 54
+[01-Jan-2018 15:54:44 Europe/Berlin] PHP Notice:  Undefined property: Database::$dbname in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 25
+[01-Jan-2018 15:54:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:99
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php(109): Database->execute()
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(21): Database->resultSet()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#3 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#4 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#5 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 99
+[01-Jan-2018 15:55:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:99
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php(109): Database->execute()
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(21): Database->resultSet()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#3 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#4 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#5 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 99
+[01-Jan-2018 15:56:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:102
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php(112): Database->execute()
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(21): Database->resultSet()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#3 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#4 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#5 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 102
+[01-Jan-2018 15:56:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php:102
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php(112): Database->execute()
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\models\Post.php(21): Database->resultSet()
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(17): Post->getPosts()
+#3 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#4 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#5 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Database.php on line 102
+[01-Jan-2018 17:36:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\xampp\htdocs\www\github\mmvc\src\app\views\pages\index.php on line 13
+[01-Jan-2018 17:36:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\www\github\mmvc\src\app\views\pages\index.php:11
+Stack trace:
+#0 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Controller.php(30): require_once()
+#1 C:\xampp\htdocs\www\github\mmvc\src\app\controllers\Pages.php(24): Controller->view('pages/index', Array)
+#2 C:\xampp\htdocs\www\github\mmvc\src\app\libraries\Core.php(77): Pages->index()
+#3 C:\xampp\htdocs\www\github\mmvc\src\public\index.php(5): Core->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\www\github\mmvc\src\app\views\pages\index.php on line 11

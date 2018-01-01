@@ -5,14 +5,12 @@
  * Loads the models and views.
  *
 */
-
 class Controller{ 
     
     /*
-     * Load modules
+     * Load modules.
      *
-    */
-    
+    */    
     public function model( $model ){
         
         require_once '../app/models/' . $model . '.php';        
@@ -22,10 +20,9 @@ class Controller{
     }
     
     /*
-     * Load views
+     * Load views.
      *
-    */
-    
+    */    
     public function view( $view , $data = array() ){
         
         if( file_exists( '../app/views/' . $view. '.php') ){
@@ -34,7 +31,7 @@ class Controller{
             
         }else{
             
-            // 404 page
+            // todo: 404 page
             die( 'View does not exists!' );
             
         }
