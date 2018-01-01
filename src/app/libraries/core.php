@@ -14,8 +14,7 @@ class Core {
     
     protected $currentController = 'Pages';
     protected $currentMethod     = 'index';
-    protected $params            = array('test');// php 5.3.0
-    //protected $params          = [];// > php 5.4.0 
+    protected $params            = [];
     
     /*
      * Construct function.
@@ -68,18 +67,9 @@ class Core {
             
         }
         
-        
-        
-        
-        $this->params = $url ? array_values( $url ) : array();
-        //$this->params = $url ? array_values( $url ) : [];
+        $this->params = $url ? array_values( $url ) : [];
 
-        call_user_func_array( array( $this->currentController , $this->currentMethod ) , $this->params );
-        //call_user_func_array( [ $this->currentController , $this->currentMethod ] , $this->params );
-        
-        
-        
-        
+        call_user_func_array( [ $this->currentController , $this->currentMethod ] , $this->params ); 
         
     }
     
